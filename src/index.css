@@ -48,3 +48,20 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+li{
+  list-style: none;
+  padding: 4px;
+}
+
+li > button{
+  width: 300px;
+}
+
+.active > button{
+  font-weight: bold;
+}
+
+.winner{
+  background-color: red;
+}
